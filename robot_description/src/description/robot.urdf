@@ -386,20 +386,68 @@
   </gazebo>
 
   <!-- IMU Plugin -->
-  <gazebo>
-      <plugin filename="libignition-gazebo-imu-system"
-          name="ignition::gazebo::systems::Imu">
-      </plugin>
+<gazebo>
+  <plugin filename="libignition-gazebo-imu-system"
+          name="ignition::gazebo::systems::Imu"/>
+</gazebo>
+
+<gazebo reference="zed_imu_link">
+  <sensor name="imu_sensor" type="imu">
+    <always_on>true</always_on>
+    <update_rate>100</update_rate>
+    <visualize>true</visualize>
+    <topic>/zed/zed_node/imu/data_raw</topic>
+
+    <imu>
+
+      <!-- Gyroscope noise -->
+        <angular_velocity>
+          <x>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>0.005</stddev>
+            </noise>
+          </x>
+          <y>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>0.005</stddev>
+            </noise>
+          </y>
+          <z>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>0.005</stddev>
+            </noise>
+          </z>
+        </angular_velocity>
+
+        <!-- Accelerometer noise -->
+        <linear_acceleration>
+          <x>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>0.05</stddev>
+            </noise>
+          </x>
+          <y>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>0.05</stddev>
+            </noise>
+          </y>
+          <z>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>0.05</stddev>
+            </noise>
+          </z>
+        </linear_acceleration>
+
+      </imu>
+    </sensor>
   </gazebo>
-  <gazebo reference="zed_imu_link">
-      <sensor name="imu_sensor" type="imu">
-          <always_on>1</always_on>
-          <update_rate>100</update_rate>
-          <visualize>true</visualize>
-          <topic>/zed/zed_node/imu/data_raw</topic>
-      </sensor>
-  </gazebo>
-  <gazebo>
+
     <!--<plugin
         filename="gz-sim-diff-drive-system"
         name="gz::sim::systems::DiffDrive">
