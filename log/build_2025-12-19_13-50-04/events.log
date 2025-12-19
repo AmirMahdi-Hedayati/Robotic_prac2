@@ -1,0 +1,266 @@
+[0.000000] (-) TimerEvent: {}
+[0.000154] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000225] (robot_local_localization) JobQueued: {'identifier': 'robot_local_localization', 'dependencies': OrderedDict()}
+[0.000249] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.003089] (robot_local_localization) JobStarted: {'identifier': 'robot_local_localization'}
+[0.006330] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.006932] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/robot_description', '-DCMAKE_INSTALL_PREFIX=/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description'], 'cwd': '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'amirmahdi'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:10808/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amirmahdi'), ('OLDPWD', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/robot_description'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '3714'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amirmahdi'), ('ALL_PROXY', 'socks://127.0.0.1:10808/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amirmahdi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amirmahdi-ASUS-TUF-Gaming-F15-FX507ZM-FX507ZM:@/tmp/.ICE-unix/2749,unix/amirmahdi-ASUS-TUF-Gaming-F15-FX507ZM-FX507ZM:/tmp/.ICE-unix/2749'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f908dbcf_1971_4d34_a12b_fa65f507c944'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B4RUH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization:/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization:/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description:/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization:/opt/ros/humble')]), 'shell': False}
+[0.046478] (robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.083813] (robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.088526] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099508] (-) TimerEvent: {}
+[0.135954] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.142586] (robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.142757] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.142985] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.145818] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199716] (-) TimerEvent: {}
+[0.199927] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.204322] (robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.204391] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.204705] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.206222] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299828] (-) TimerEvent: {}
+[0.302866] (robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.324306] (robot_local_localization) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/robot_local_localization', 'build', '--build-base', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build', 'install', '--record', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/robot_local_localization', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'USER': 'amirmahdi', 'LC_TIME': 'en_US.UTF-8', 'all_proxy': 'socks://127.0.0.1:10808/', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/amirmahdi', 'OLDPWD': '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/robot_description', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '3714', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'amirmahdi', 'ALL_PROXY': 'socks://127.0.0.1:10808/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'amirmahdi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/amirmahdi-ASUS-TUF-Gaming-F15-FX507ZM-FX507ZM:@/tmp/.ICE-unix/2749,unix/amirmahdi-ASUS-TUF-Gaming-F15-FX507ZM-FX507ZM:/tmp/.ICE-unix/2749', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f908dbcf_1971_4d34_a12b_fa65f507c944', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.B4RUH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization:/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages:/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization:/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description'}, 'shell': False}
+[0.359399] (robot_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.384889] (robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.387421] (robot_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.391743] (robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.398249] (robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.399939] (-) TimerEvent: {}
+[0.406843] (robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.430716] (robot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.432102] (robot_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.448071] (robot_local_localization) StdoutLine: {'line': b'running egg_info\n'}
+[0.448446] (robot_local_localization) StdoutLine: {'line': b'creating ../build/robot_local_localization/robot_local_localization.egg-info\n'}
+[0.448579] (robot_local_localization) StdoutLine: {'line': b'writing ../build/robot_local_localization/robot_local_localization.egg-info/PKG-INFO\n'}
+[0.448640] (robot_local_localization) StdoutLine: {'line': b'writing dependency_links to ../build/robot_local_localization/robot_local_localization.egg-info/dependency_links.txt\n'}
+[0.448698] (robot_local_localization) StdoutLine: {'line': b'writing entry points to ../build/robot_local_localization/robot_local_localization.egg-info/entry_points.txt\n'}
+[0.448872] (robot_local_localization) StdoutLine: {'line': b'writing requirements to ../build/robot_local_localization/robot_local_localization.egg-info/requires.txt\n'}
+[0.448952] (robot_local_localization) StdoutLine: {'line': b'writing top-level names to ../build/robot_local_localization/robot_local_localization.egg-info/top_level.txt\n'}
+[0.449012] (robot_local_localization) StdoutLine: {'line': b"writing manifest file '../build/robot_local_localization/robot_local_localization.egg-info/SOURCES.txt'\n"}
+[0.449676] (robot_local_localization) StdoutLine: {'line': b"reading manifest file '../build/robot_local_localization/robot_local_localization.egg-info/SOURCES.txt'\n"}
+[0.450615] (robot_local_localization) StdoutLine: {'line': b"writing manifest file '../build/robot_local_localization/robot_local_localization.egg-info/SOURCES.txt'\n"}
+[0.450762] (robot_local_localization) StdoutLine: {'line': b'running build\n'}
+[0.450823] (robot_local_localization) StdoutLine: {'line': b'running build_py\n'}
+[0.450888] (robot_local_localization) StdoutLine: {'line': b'creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build\n'}
+[0.450942] (robot_local_localization) StdoutLine: {'line': b'creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib\n'}
+[0.450994] (robot_local_localization) StdoutLine: {'line': b'creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization\n'}
+[0.451045] (robot_local_localization) StdoutLine: {'line': b'copying robot_local_localization/prediction_node.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization\n'}
+[0.451097] (robot_local_localization) StdoutLine: {'line': b'copying robot_local_localization/measurement_node.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization\n'}
+[0.451148] (robot_local_localization) StdoutLine: {'line': b'copying robot_local_localization/__init__.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization\n'}
+[0.451199] (robot_local_localization) StdoutLine: {'line': b'running install\n'}
+[0.451260] (robot_local_localization) StdoutLine: {'line': b'running install_lib\n'}
+[0.451339] (robot_local_localization) StdoutLine: {'line': b'creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization\n'}
+[0.451398] (robot_local_localization) StdoutLine: {'line': b'copying /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization/prediction_node.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization\n'}
+[0.451455] (robot_local_localization) StdoutLine: {'line': b'copying /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization/measurement_node.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization\n'}
+[0.451528] (robot_local_localization) StdoutLine: {'line': b'copying /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization/__init__.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization\n'}
+[0.451605] (robot_local_localization) StdoutLine: {'line': b'byte-compiling /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization/prediction_node.py to prediction_node.cpython-310.pyc\n'}
+[0.452290] (robot_local_localization) StdoutLine: {'line': b'byte-compiling /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization/measurement_node.py to measurement_node.cpython-310.pyc\n'}
+[0.452443] (robot_local_localization) StdoutLine: {'line': b'byte-compiling /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization/__init__.py to __init__.cpython-310.pyc\n'}
+[0.452510] (robot_local_localization) StdoutLine: {'line': b'running install_data\n'}
+[0.452569] (robot_local_localization) StdoutLine: {'line': b'creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/share/ament_index\n'}
+[0.452628] (robot_local_localization) StdoutLine: {'line': b'creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/share/ament_index/resource_index\n'}
+[0.452700] (robot_local_localization) StdoutLine: {'line': b'creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/share/ament_index/resource_index/packages\n'}
+[0.452753] (robot_local_localization) StdoutLine: {'line': b'copying resource/robot_local_localization -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/share/ament_index/resource_index/packages\n'}
+[0.452812] (robot_local_localization) StdoutLine: {'line': b'copying package.xml -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/share/robot_local_localization\n'}
+[0.452863] (robot_local_localization) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.453660] (robot_local_localization) StdoutLine: {'line': b'Copying ../build/robot_local_localization/robot_local_localization.egg-info to /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization-0.0.0-py3.10.egg-info\n'}
+[0.453950] (robot_local_localization) StdoutLine: {'line': b'running install_scripts\n'}
+[0.465631] (robot_local_localization) StdoutLine: {'line': b'Installing measurement_node script to /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/robot_local_localization\n'}
+[0.465774] (robot_local_localization) StdoutLine: {'line': b'Installing prediction_node script to /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/robot_local_localization\n'}
+[0.465834] (robot_local_localization) StdoutLine: {'line': b"writing list of installed files to '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/install.log'\n"}
+[0.479798] (robot_local_localization) CommandEnded: {'returncode': 0}
+[0.484785] (robot_local_localization) JobEnded: {'identifier': 'robot_local_localization', 'rc': 0}
+[0.489213] (robot_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.500130] (-) TimerEvent: {}
+[0.505623] (robot_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.530857] (robot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.535321] (robot_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.588215] (robot_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.588513] (robot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.600336] (-) TimerEvent: {}
+[0.651952] (robot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.652887] (robot_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.682581] (robot_description) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.698743] (robot_description) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.700399] (-) TimerEvent: {}
+[0.707825] (robot_description) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.713279] (robot_description) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.722237] (robot_description) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.772545] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.800491] (-) TimerEvent: {}
+[0.815308] (robot_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.815447] (robot_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.815478] (robot_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.815686] (robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.815949] (robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.816187] (robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.817101] (robot_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.817256] (robot_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.817290] (robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.817864] (robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.828262] (robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.832862] (robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description\n'}
+[0.840374] (robot_description) CommandEnded: {'returncode': 0}
+[0.840877] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[0.840892] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description', '--', '-j20', '-l20'], 'cwd': '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'amirmahdi'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:10808/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amirmahdi'), ('OLDPWD', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/robot_description'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '3714'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amirmahdi'), ('ALL_PROXY', 'socks://127.0.0.1:10808/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amirmahdi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amirmahdi-ASUS-TUF-Gaming-F15-FX507ZM-FX507ZM:@/tmp/.ICE-unix/2749,unix/amirmahdi-ASUS-TUF-Gaming-F15-FX507ZM-FX507ZM:/tmp/.ICE-unix/2749'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f908dbcf_1971_4d34_a12b_fa65f507c944'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B4RUH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization:/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization:/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description:/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization:/opt/ros/humble')]), 'shell': False}
+[0.875073] (robot_description) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/cmd_vel_to_motor_rpm_node.dir/scripts/cmd_vel_to_motor_rpm.cpp.o\x1b[0m\n'}
+[0.876004] (robot_description) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/motor_command_node.dir/scripts/motor_command.cpp.o\x1b[0m\n'}
+[0.876780] (robot_description) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/frame_id_converter_node.dir/scripts/frame_id_converter.cpp.o\x1b[0m\n'}
+[0.876853] (robot_description) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ekf_diff_imu_node.dir/scripts/ekf_diff_imu.cpp.o\x1b[0m\n'}
+[0.900585] (-) TimerEvent: {}
+[1.000921] (-) TimerEvent: {}
+[1.101304] (-) TimerEvent: {}
+[1.201692] (-) TimerEvent: {}
+[1.302067] (-) TimerEvent: {}
+[1.402463] (-) TimerEvent: {}
+[1.502809] (-) TimerEvent: {}
+[1.603186] (-) TimerEvent: {}
+[1.703543] (-) TimerEvent: {}
+[1.803924] (-) TimerEvent: {}
+[1.904253] (-) TimerEvent: {}
+[2.004566] (-) TimerEvent: {}
+[2.104887] (-) TimerEvent: {}
+[2.205215] (-) TimerEvent: {}
+[2.305546] (-) TimerEvent: {}
+[2.405847] (-) TimerEvent: {}
+[2.506239] (-) TimerEvent: {}
+[2.606491] (-) TimerEvent: {}
+[2.706864] (-) TimerEvent: {}
+[2.807256] (-) TimerEvent: {}
+[2.907596] (-) TimerEvent: {}
+[3.007890] (-) TimerEvent: {}
+[3.108276] (-) TimerEvent: {}
+[3.208542] (-) TimerEvent: {}
+[3.308903] (-) TimerEvent: {}
+[3.409252] (-) TimerEvent: {}
+[3.509613] (-) TimerEvent: {}
+[3.610044] (-) TimerEvent: {}
+[3.710437] (-) TimerEvent: {}
+[3.810733] (-) TimerEvent: {}
+[3.911051] (-) TimerEvent: {}
+[4.011367] (-) TimerEvent: {}
+[4.111621] (-) TimerEvent: {}
+[4.211992] (-) TimerEvent: {}
+[4.312368] (-) TimerEvent: {}
+[4.412610] (-) TimerEvent: {}
+[4.512995] (-) TimerEvent: {}
+[4.613373] (-) TimerEvent: {}
+[4.713683] (-) TimerEvent: {}
+[4.814020] (-) TimerEvent: {}
+[4.914390] (-) TimerEvent: {}
+[5.014699] (-) TimerEvent: {}
+[5.115067] (-) TimerEvent: {}
+[5.215435] (-) TimerEvent: {}
+[5.315820] (-) TimerEvent: {}
+[5.416177] (-) TimerEvent: {}
+[5.516563] (-) TimerEvent: {}
+[5.616813] (-) TimerEvent: {}
+[5.717189] (-) TimerEvent: {}
+[5.817587] (-) TimerEvent: {}
+[5.917991] (-) TimerEvent: {}
+[5.950596] (robot_description) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable frame_id_converter_node\x1b[0m\n'}
+[5.987677] (robot_description) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable motor_command_node\x1b[0m\n'}
+[5.991199] (robot_description) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable cmd_vel_to_motor_rpm_node\x1b[0m\n'}
+[6.018144] (-) TimerEvent: {}
+[6.118466] (-) TimerEvent: {}
+[6.198105] (robot_description) StdoutLine: {'line': b'[ 87%] Built target frame_id_converter_node\n'}
+[6.218659] (-) TimerEvent: {}
+[6.227006] (robot_description) StdoutLine: {'line': b'[ 87%] Built target motor_command_node\n'}
+[6.234984] (robot_description) StdoutLine: {'line': b'[ 87%] Built target cmd_vel_to_motor_rpm_node\n'}
+[6.318755] (-) TimerEvent: {}
+[6.419123] (-) TimerEvent: {}
+[6.519402] (-) TimerEvent: {}
+[6.619761] (-) TimerEvent: {}
+[6.720037] (-) TimerEvent: {}
+[6.820402] (-) TimerEvent: {}
+[6.920779] (-) TimerEvent: {}
+[7.021140] (-) TimerEvent: {}
+[7.121508] (-) TimerEvent: {}
+[7.221869] (-) TimerEvent: {}
+[7.322239] (-) TimerEvent: {}
+[7.422794] (-) TimerEvent: {}
+[7.523110] (-) TimerEvent: {}
+[7.623360] (-) TimerEvent: {}
+[7.723697] (-) TimerEvent: {}
+[7.824036] (-) TimerEvent: {}
+[7.924389] (-) TimerEvent: {}
+[8.024702] (-) TimerEvent: {}
+[8.125037] (-) TimerEvent: {}
+[8.225419] (-) TimerEvent: {}
+[8.325878] (-) TimerEvent: {}
+[8.426122] (-) TimerEvent: {}
+[8.526399] (-) TimerEvent: {}
+[8.626691] (-) TimerEvent: {}
+[8.727014] (-) TimerEvent: {}
+[8.827304] (-) TimerEvent: {}
+[8.927555] (-) TimerEvent: {}
+[9.022240] (robot_description) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ekf_diff_imu_node\x1b[0m\n'}
+[9.027635] (-) TimerEvent: {}
+[9.127878] (-) TimerEvent: {}
+[9.228203] (-) TimerEvent: {}
+[9.328437] (-) TimerEvent: {}
+[9.395085] (robot_description) StdoutLine: {'line': b'[100%] Built target ekf_diff_imu_node\n'}
+[9.402725] (robot_description) CommandEnded: {'returncode': 0}
+[9.403483] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[9.408878] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description'], 'cwd': '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'amirmahdi'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:10808/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amirmahdi'), ('OLDPWD', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/robot_description'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '3714'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amirmahdi'), ('ALL_PROXY', 'socks://127.0.0.1:10808/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amirmahdi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amirmahdi-ASUS-TUF-Gaming-F15-FX507ZM-FX507ZM:@/tmp/.ICE-unix/2749,unix/amirmahdi-ASUS-TUF-Gaming-F15-FX507ZM-FX507ZM:/tmp/.ICE-unix/2749'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f908dbcf_1971_4d34_a12b_fa65f507c944'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B4RUH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization:/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization:/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description:/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization:/opt/ros/humble')]), 'shell': False}
+[9.414609] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.414688] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/src\n'}
+[9.414720] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/src/robot_autonomy\n'}
+[9.414746] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/src/description\n'}
+[9.414796] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/src/description/robot.urdf\n'}
+[9.414819] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/src/meshes\n'}
+[9.414840] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/src/meshes/wheel.usd\n'}
+[9.414860] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/src/meshes/wheel.STL\n'}
+[9.414881] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/src/meshes/chasis.STL\n'}
+[9.425954] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/src/meshes/zed.STL\n'}
+[9.426179] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/src/meshes/Rear_Right_Caster_Wheel_Main.STL\n'}
+[9.426319] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/src/meshes/Front_Right_Caster_Wheel_Main.STL\n'}
+[9.426441] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/src/meshes/Front_Left_Caster_Wheel_Main.STL\n'}
+[9.427092] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/src/meshes/Rear_Left_Caster_Wheel_Main.STL\n'}
+[9.427141] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/src/meshes/Rear_Trailing.STL\n'}
+[9.428440] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/launch\n'}
+[9.428476] (-) TimerEvent: {}
+[9.428627] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/launch/display.launch.py\n'}
+[9.428737] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/launch/gazebo.launch.py\n'}
+[9.428801] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/rviz\n'}
+[9.428970] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/rviz/config.rviz\n'}
+[9.429031] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/config\n'}
+[9.429086] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/config/gz_bridge.yaml\n'}
+[9.429139] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/config/rtabmap_slam.yaml\n'}
+[9.429191] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/world\n'}
+[9.429255] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/world/depot.sdf\n'}
+[9.429311] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/world/test.sdf\n'}
+[9.429502] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/scripts\n'}
+[9.429543] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/scripts/cmd_vel_to_motor_rpm.cpp\n'}
+[9.429569] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/scripts/motor_command.cpp\n'}
+[9.429593] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/scripts/ekf_diff_imu.cpp\n'}
+[9.429616] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/scripts/frame_id_converter.cpp\n'}
+[9.429640] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/lib/robot_description/frame_id_converter_node\n'}
+[9.430470] (robot_description) StdoutLine: {'line': b'-- Set runtime path of "/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/lib/robot_description/frame_id_converter_node" to ""\n'}
+[9.430536] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/lib/robot_description/ekf_diff_imu_node\n'}
+[9.433093] (robot_description) StdoutLine: {'line': b'-- Set runtime path of "/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/lib/robot_description/ekf_diff_imu_node" to ""\n'}
+[9.433157] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/lib/robot_description/motor_command_node\n'}
+[9.434555] (robot_description) StdoutLine: {'line': b'-- Set runtime path of "/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/lib/robot_description/motor_command_node" to ""\n'}
+[9.434619] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/lib/robot_description/cmd_vel_to_motor_rpm_node\n'}
+[9.436124] (robot_description) StdoutLine: {'line': b'-- Set runtime path of "/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/lib/robot_description/cmd_vel_to_motor_rpm_node" to ""\n'}
+[9.436205] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[9.436244] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[9.436272] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[9.436333] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[9.436368] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/environment/path.sh\n'}
+[9.436396] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[9.436421] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/local_setup.bash\n'}
+[9.436537] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/local_setup.sh\n'}
+[9.436600] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[9.436632] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[9.436658] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/package.dsv\n'}
+[9.436684] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[9.436739] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[9.436771] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[9.436795] (robot_description) StdoutLine: {'line': b'-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/package.xml\n'}
+[9.438508] (robot_description) CommandEnded: {'returncode': 0}
+[9.444129] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[9.444460] (-) EventReactorShutdown: {}

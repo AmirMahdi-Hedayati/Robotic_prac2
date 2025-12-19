@@ -150,7 +150,13 @@ def generate_launch_description():
     ]
 )
 
-
+    measurement_node = Node(
+        package='robot_local_localization',
+        executable='measurement_node',
+        name='measurement_node',
+        output='screen',
+        parameters=[{'use_sim_time': True}]
+    )
     return LaunchDescription([
         DeclareLaunchArgument('use_sim_time',default_value='True',description='Use sim time if true'),
         DeclareLaunchArgument('urdf_file',default_value=os.path.join(bringup_dir, 'src', 'description', 'test.urdf'),description='Whether to start RVIZ'),
@@ -161,6 +167,7 @@ def generate_launch_description():
         spawn_entity,
         cmd_vel_to_motor_rpm_node,
         prediction_node,
+        measurement_node,
         rviz_node,
         frame_id_converter_node, 
         ekf_diff_imu_node,

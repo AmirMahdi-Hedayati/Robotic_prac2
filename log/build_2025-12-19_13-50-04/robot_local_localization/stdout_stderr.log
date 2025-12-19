@@ -14,13 +14,16 @@ creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/rob
 creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib
 creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization
 copying robot_local_localization/prediction_node.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization
+copying robot_local_localization/measurement_node.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization
 copying robot_local_localization/__init__.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization
 running install
 running install_lib
 creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization
 copying /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization/prediction_node.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization
+copying /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization/measurement_node.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization
 copying /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization/__init__.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization
 byte-compiling /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization/prediction_node.py to prediction_node.cpython-310.pyc
+byte-compiling /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization/measurement_node.py to measurement_node.cpython-310.pyc
 byte-compiling /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization/__init__.py to __init__.cpython-310.pyc
 running install_data
 creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/share/ament_index
@@ -31,5 +34,6 @@ copying package.xml -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_co
 running install_egg_info
 Copying ../build/robot_local_localization/robot_local_localization.egg-info to /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization-0.0.0-py3.10.egg-info
 running install_scripts
+Installing measurement_node script to /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/robot_local_localization
 Installing prediction_node script to /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/robot_local_localization
 writing list of installed files to '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/install.log'

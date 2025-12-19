@@ -1,0 +1,41 @@
+[0.322s] Invoking command in '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/robot_local_localization': PYTHONPATH=/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_local_localization build --build-base /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build install --record /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/install.log --single-version-externally-managed install_data
+[0.445s] running egg_info
+[0.445s] creating ../build/robot_local_localization/robot_local_localization.egg-info
+[0.445s] writing ../build/robot_local_localization/robot_local_localization.egg-info/PKG-INFO
+[0.445s] writing dependency_links to ../build/robot_local_localization/robot_local_localization.egg-info/dependency_links.txt
+[0.445s] writing entry points to ../build/robot_local_localization/robot_local_localization.egg-info/entry_points.txt
+[0.446s] writing requirements to ../build/robot_local_localization/robot_local_localization.egg-info/requires.txt
+[0.446s] writing top-level names to ../build/robot_local_localization/robot_local_localization.egg-info/top_level.txt
+[0.446s] writing manifest file '../build/robot_local_localization/robot_local_localization.egg-info/SOURCES.txt'
+[0.446s] reading manifest file '../build/robot_local_localization/robot_local_localization.egg-info/SOURCES.txt'
+[0.447s] writing manifest file '../build/robot_local_localization/robot_local_localization.egg-info/SOURCES.txt'
+[0.447s] running build
+[0.448s] running build_py
+[0.448s] creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build
+[0.448s] creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib
+[0.448s] creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization
+[0.448s] copying robot_local_localization/prediction_node.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization
+[0.448s] copying robot_local_localization/measurement_node.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization
+[0.448s] copying robot_local_localization/__init__.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization
+[0.448s] running install
+[0.448s] running install_lib
+[0.448s] creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization
+[0.448s] copying /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization/prediction_node.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization
+[0.448s] copying /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization/measurement_node.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization
+[0.448s] copying /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build/lib/robot_local_localization/__init__.py -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization
+[0.448s] byte-compiling /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization/prediction_node.py to prediction_node.cpython-310.pyc
+[0.449s] byte-compiling /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization/measurement_node.py to measurement_node.cpython-310.pyc
+[0.449s] byte-compiling /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization/__init__.py to __init__.cpython-310.pyc
+[0.449s] running install_data
+[0.449s] creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/share/ament_index
+[0.449s] creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/share/ament_index/resource_index
+[0.449s] creating /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/share/ament_index/resource_index/packages
+[0.449s] copying resource/robot_local_localization -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/share/ament_index/resource_index/packages
+[0.450s] copying package.xml -> /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/share/robot_local_localization
+[0.450s] running install_egg_info
+[0.450s] Copying ../build/robot_local_localization/robot_local_localization.egg-info to /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages/robot_local_localization-0.0.0-py3.10.egg-info
+[0.451s] running install_scripts
+[0.462s] Installing measurement_node script to /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/robot_local_localization
+[0.462s] Installing prediction_node script to /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/robot_local_localization
+[0.463s] writing list of installed files to '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/install.log'
+[0.477s] Invoked command in '/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/robot_local_localization' returned '0': PYTHONPATH=/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_local_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_local_localization build --build-base /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/build install --record /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_local_localization/install.log --single-version-externally-managed install_data
