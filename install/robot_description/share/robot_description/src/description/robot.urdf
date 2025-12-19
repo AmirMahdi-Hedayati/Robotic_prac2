@@ -448,33 +448,7 @@
     </sensor>
   </gazebo>
 
-    <!--<plugin
-        filename="gz-sim-diff-drive-system"
-        name="gz::sim::systems::DiffDrive">
-        <topic>/cmd_vel</topic>
-
-        <left_joint>drivewhl_l_joint</left_joint>
-        <right_joint>drivewhl_r_joint</right_joint>
-
-        <wheel_separation>0.45</wheel_separation>
-        <wheel_radius>0.1</wheel_radius> 
-
-        <max_velocity>3.0</max_velocity> 
-        <max_linear_acceleration>1</max_linear_acceleration>
-        <min_linear_acceleration>-1</min_linear_acceleration>
-        <max_angular_acceleration>2</max_angular_acceleration>
-        <min_angular_acceleration>-2</min_angular_acceleration>
-        <max_linear_velocity>0.5</max_linear_velocity>
-        <min_linear_velocity>-0.5</min_linear_velocity>
-        <max_angular_velocity>1</max_angular_velocity>
-        <min_angular_velocity>-1</min_angular_velocity>
-        
-        <odom_topic>/wheel_encoder/odom</odom_topic> 
-        <frame_id>odom</frame_id>
-        <child_frame_id>base_link</child_frame_id>
-        <odom_publish_frequency>60</odom_publish_frequency>
-    </plugin>-->
-
+  <gazebo>
     <plugin
         filename="gz-sim-joint-state-publisher-system"
         name="gz::sim::systems::JointStatePublisher">

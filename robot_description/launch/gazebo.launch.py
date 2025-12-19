@@ -143,6 +143,7 @@ def generate_launch_description():
         gz_sim,bridge,
         start_robot_state_publisher_cmd,
         spawn_entity,
+        cmd_vel_to_motor_rpm_node,
         rviz_node,
         frame_id_converter_node, 
         ekf_diff_imu_node,
