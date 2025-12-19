@@ -172,6 +172,24 @@ def generate_launch_description():
         output='screen',
         parameters=[{'use_sim_time': True}]
     )
+
+    test_node = Node(
+        package='robot_local_localization',
+        executable='test_node',
+        name='test_node',
+        output='screen',
+        parameters=[
+            {'use_sim_time': True},
+            {'frame_id': 'odom'},
+            {'loops': 1},
+            {'linear_speed': 0.2},
+            {'angular_speed': 0.4},
+            {'side_time': 5.0},
+            {'turn_time': 3.93},   # تقریباً 90 درجه با 0.4 rad/s
+            {'use_tf_as_real': True},
+        ]
+    )
+
     return LaunchDescription([
         DeclareLaunchArgument('use_sim_time',default_value='True',description='Use sim time if true'),
         DeclareLaunchArgument('urdf_file',default_value=os.path.join(bringup_dir, 'src', 'description', 'test.urdf'),description='Whether to start RVIZ'),
@@ -184,6 +202,7 @@ def generate_launch_description():
         prediction_node,
         measurement_node,
         ekf_node,
+        test_node,
         rviz_node,
         frame_id_converter_node, 
         rtabmap_vo_node

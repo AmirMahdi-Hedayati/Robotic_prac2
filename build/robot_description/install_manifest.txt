@@ -12,6 +12,7 @@
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/launch/gazebo.launch.py
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/rviz/config.rviz
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/config/gz_bridge.yaml
+/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/config/gazebo.rviz
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/config/rtabmap_slam.yaml
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/world/depot.sdf
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/world/test.sdf

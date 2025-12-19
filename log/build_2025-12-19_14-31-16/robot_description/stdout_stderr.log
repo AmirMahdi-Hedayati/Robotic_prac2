@@ -46,16 +46,16 @@
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description
-[ 12%] [32mBuilding CXX object CMakeFiles/ekf_diff_imu_node.dir/scripts/ekf_diff_imu.cpp.o[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/cmd_vel_to_motor_rpm_node.dir/scripts/cmd_vel_to_motor_rpm.cpp.o[0m
-[ 37%] [32mBuilding CXX object CMakeFiles/motor_command_node.dir/scripts/motor_command.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/frame_id_converter_node.dir/scripts/frame_id_converter.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/cmd_vel_to_motor_rpm_node.dir/scripts/cmd_vel_to_motor_rpm.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/motor_command_node.dir/scripts/motor_command.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/frame_id_converter_node.dir/scripts/frame_id_converter.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ekf_diff_imu_node.dir/scripts/ekf_diff_imu.cpp.o[0m
 [ 62%] [32m[1mLinking CXX executable frame_id_converter_node[0m
-[ 75%] [32m[1mLinking CXX executable motor_command_node[0m
-[ 87%] [32m[1mLinking CXX executable cmd_vel_to_motor_rpm_node[0m
+[ 75%] [32m[1mLinking CXX executable cmd_vel_to_motor_rpm_node[0m
+[ 87%] [32m[1mLinking CXX executable motor_command_node[0m
 [ 87%] Built target frame_id_converter_node
-[ 87%] Built target motor_command_node
 [ 87%] Built target cmd_vel_to_motor_rpm_node
+[ 87%] Built target motor_command_node
 [100%] [32m[1mLinking CXX executable ekf_diff_imu_node[0m
 [100%] Built target ekf_diff_imu_node
 -- Install configuration: ""
@@ -80,6 +80,7 @@
 -- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/rviz/config.rviz
 -- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/config
 -- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/config/gz_bridge.yaml
+-- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/config/gazebo.rviz
 -- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/config/rtabmap_slam.yaml
 -- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/world
 -- Installing: /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/world/depot.sdf
