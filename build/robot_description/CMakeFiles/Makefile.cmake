@@ -995,5 +995,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/robot_description_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/frame_id_converter_node.dir/DependInfo.cmake"
   "CMakeFiles/motor_command_node.dir/DependInfo.cmake"
+  "CMakeFiles/cmd_vel_to_motor_rpm_node.dir/DependInfo.cmake"
   "CMakeFiles/ekf_diff_imu_node.dir/DependInfo.cmake"
   )

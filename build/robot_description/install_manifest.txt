@@ -15,12 +15,14 @@
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/config/rtabmap_slam.yaml
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/world/depot.sdf
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/world/test.sdf
+/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/scripts/cmd_vel_to_motor_rpm.cpp
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/scripts/motor_command.cpp
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/scripts/ekf_diff_imu.cpp
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/scripts/frame_id_converter.cpp
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/lib/robot_description/frame_id_converter_node
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/lib/robot_description/ekf_diff_imu_node
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/lib/robot_description/motor_command_node
+/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/lib/robot_description/cmd_vel_to_motor_rpm_node
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
 /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/install/robot_description/share/robot_description/environment/ament_prefix_path.sh

@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0ca6f4867cf9a98a8b6f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robot_description",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cmd_vel_to_motor_rpm_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmd_vel_to_motor_rpm_node-8d97d69dd1dfcd8b0309.json",
+					"name" : "cmd_vel_to_motor_rpm_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ekf_diff_imu_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ekf_diff_imu_node-d01bcbf877e7af8b6cab.json",
+					"name" : "ekf_diff_imu_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "frame_id_converter_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-frame_id_converter_node-0cdd02628428f56df212.json",
+					"name" : "frame_id_converter_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_command_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_command_node-5dc5cb3956123d2d9923.json",
+					"name" : "motor_command_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_description_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_description_uninstall-47e48a636bc1803862bb.json",
+					"name" : "robot_description_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0fb5bc8c318d32735e32.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description",
+		"source" : "/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/robot_description"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

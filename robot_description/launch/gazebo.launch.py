@@ -121,6 +121,20 @@ def generate_launch_description():
         ]
     )
 
+
+    cmd_vel_to_motor_rpm_node = Node(
+        package='robot_description',
+        executable='cmd_vel_to_motor_rpm_node',
+        name='cmd_vel_to_motor_rpm_node',
+        output='screen',
+        parameters=[
+            {'use_sim_time': True},
+            {'wheel_separation': 0.45},
+            {'wheel_radius': 0.10},
+            {'cmd_timeout': 0.5},
+        ]
+    )
+
     return LaunchDescription([
         DeclareLaunchArgument('use_sim_time',default_value='True',description='Use sim time if true'),
         DeclareLaunchArgument('urdf_file',default_value=os.path.join(bringup_dir, 'src', 'description', 'test.urdf'),description='Whether to start RVIZ'),

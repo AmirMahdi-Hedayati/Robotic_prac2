@@ -224,6 +224,19 @@ motor_command_node/fast:
 .PHONY : motor_command_node/fast
 
 #=============================================================================
+# Target rules for targets named cmd_vel_to_motor_rpm_node
+
+# Build rule for target.
+cmd_vel_to_motor_rpm_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmd_vel_to_motor_rpm_node
+.PHONY : cmd_vel_to_motor_rpm_node
+
+# fast build rule for target.
+cmd_vel_to_motor_rpm_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmd_vel_to_motor_rpm_node.dir/build.make CMakeFiles/cmd_vel_to_motor_rpm_node.dir/build
+.PHONY : cmd_vel_to_motor_rpm_node/fast
+
+#=============================================================================
 # Target rules for targets named ekf_diff_imu_node
 
 # Build rule for target.
@@ -235,6 +248,30 @@ ekf_diff_imu_node: cmake_check_build_system
 ekf_diff_imu_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ekf_diff_imu_node.dir/build.make CMakeFiles/ekf_diff_imu_node.dir/build
 .PHONY : ekf_diff_imu_node/fast
+
+scripts/cmd_vel_to_motor_rpm.o: scripts/cmd_vel_to_motor_rpm.cpp.o
+.PHONY : scripts/cmd_vel_to_motor_rpm.o
+
+# target to build an object file
+scripts/cmd_vel_to_motor_rpm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmd_vel_to_motor_rpm_node.dir/build.make CMakeFiles/cmd_vel_to_motor_rpm_node.dir/scripts/cmd_vel_to_motor_rpm.cpp.o
+.PHONY : scripts/cmd_vel_to_motor_rpm.cpp.o
+
+scripts/cmd_vel_to_motor_rpm.i: scripts/cmd_vel_to_motor_rpm.cpp.i
+.PHONY : scripts/cmd_vel_to_motor_rpm.i
+
+# target to preprocess a source file
+scripts/cmd_vel_to_motor_rpm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmd_vel_to_motor_rpm_node.dir/build.make CMakeFiles/cmd_vel_to_motor_rpm_node.dir/scripts/cmd_vel_to_motor_rpm.cpp.i
+.PHONY : scripts/cmd_vel_to_motor_rpm.cpp.i
+
+scripts/cmd_vel_to_motor_rpm.s: scripts/cmd_vel_to_motor_rpm.cpp.s
+.PHONY : scripts/cmd_vel_to_motor_rpm.s
+
+# target to generate assembly for a file
+scripts/cmd_vel_to_motor_rpm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmd_vel_to_motor_rpm_node.dir/build.make CMakeFiles/cmd_vel_to_motor_rpm_node.dir/scripts/cmd_vel_to_motor_rpm.cpp.s
+.PHONY : scripts/cmd_vel_to_motor_rpm.cpp.s
 
 scripts/ekf_diff_imu.o: scripts/ekf_diff_imu.cpp.o
 .PHONY : scripts/ekf_diff_imu.o
@@ -323,9 +360,13 @@ help:
 	@echo "... test"
 	@echo "... robot_description_uninstall"
 	@echo "... uninstall"
+	@echo "... cmd_vel_to_motor_rpm_node"
 	@echo "... ekf_diff_imu_node"
 	@echo "... frame_id_converter_node"
 	@echo "... motor_command_node"
+	@echo "... scripts/cmd_vel_to_motor_rpm.o"
+	@echo "... scripts/cmd_vel_to_motor_rpm.i"
+	@echo "... scripts/cmd_vel_to_motor_rpm.s"
 	@echo "... scripts/ekf_diff_imu.o"
 	@echo "... scripts/ekf_diff_imu.i"
 	@echo "... scripts/ekf_diff_imu.s"

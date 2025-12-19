@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course
 # The main recursive "all" target.
 all: CMakeFiles/frame_id_converter_node.dir/all
 all: CMakeFiles/motor_command_node.dir/all
+all: CMakeFiles/cmd_vel_to_motor_rpm_node.dir/all
 all: CMakeFiles/ekf_diff_imu_node.dir/all
 .PHONY : all
 
@@ -77,6 +78,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/robot_description_uninstall.dir/clean
 clean: CMakeFiles/frame_id_converter_node.dir/clean
 clean: CMakeFiles/motor_command_node.dir/clean
+clean: CMakeFiles/cmd_vel_to_motor_rpm_node.dir/clean
 clean: CMakeFiles/ekf_diff_imu_node.dir/clean
 .PHONY : clean
 
@@ -139,7 +141,7 @@ CMakeFiles/robot_description_uninstall.dir/clean:
 CMakeFiles/frame_id_converter_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/frame_id_converter_node.dir/build.make CMakeFiles/frame_id_converter_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/frame_id_converter_node.dir/build.make CMakeFiles/frame_id_converter_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description/CMakeFiles --progress-num=3,4 "Built target frame_id_converter_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description/CMakeFiles --progress-num=5,6 "Built target frame_id_converter_node"
 .PHONY : CMakeFiles/frame_id_converter_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -165,7 +167,7 @@ CMakeFiles/frame_id_converter_node.dir/clean:
 CMakeFiles/motor_command_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_command_node.dir/build.make CMakeFiles/motor_command_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_command_node.dir/build.make CMakeFiles/motor_command_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description/CMakeFiles --progress-num=5,6 "Built target motor_command_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description/CMakeFiles --progress-num=7,8 "Built target motor_command_node"
 .PHONY : CMakeFiles/motor_command_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -185,13 +187,39 @@ CMakeFiles/motor_command_node.dir/clean:
 .PHONY : CMakeFiles/motor_command_node.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/cmd_vel_to_motor_rpm_node.dir
+
+# All Build rule for target.
+CMakeFiles/cmd_vel_to_motor_rpm_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmd_vel_to_motor_rpm_node.dir/build.make CMakeFiles/cmd_vel_to_motor_rpm_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmd_vel_to_motor_rpm_node.dir/build.make CMakeFiles/cmd_vel_to_motor_rpm_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description/CMakeFiles --progress-num=1,2 "Built target cmd_vel_to_motor_rpm_node"
+.PHONY : CMakeFiles/cmd_vel_to_motor_rpm_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cmd_vel_to_motor_rpm_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cmd_vel_to_motor_rpm_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description/CMakeFiles 0
+.PHONY : CMakeFiles/cmd_vel_to_motor_rpm_node.dir/rule
+
+# Convenience name for target.
+cmd_vel_to_motor_rpm_node: CMakeFiles/cmd_vel_to_motor_rpm_node.dir/rule
+.PHONY : cmd_vel_to_motor_rpm_node
+
+# clean rule for target.
+CMakeFiles/cmd_vel_to_motor_rpm_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmd_vel_to_motor_rpm_node.dir/build.make CMakeFiles/cmd_vel_to_motor_rpm_node.dir/clean
+.PHONY : CMakeFiles/cmd_vel_to_motor_rpm_node.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/ekf_diff_imu_node.dir
 
 # All Build rule for target.
 CMakeFiles/ekf_diff_imu_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ekf_diff_imu_node.dir/build.make CMakeFiles/ekf_diff_imu_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ekf_diff_imu_node.dir/build.make CMakeFiles/ekf_diff_imu_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description/CMakeFiles --progress-num=1,2 "Built target ekf_diff_imu_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/amirmahdi/Mothari_robotics/Robotic_prac2/robotic_course/build/robot_description/CMakeFiles --progress-num=3,4 "Built target ekf_diff_imu_node"
 .PHONY : CMakeFiles/ekf_diff_imu_node.dir/all
 
 # Build rule for subdir invocation for target.
