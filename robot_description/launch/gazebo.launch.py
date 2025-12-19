@@ -150,6 +150,21 @@ def generate_launch_description():
     ]
 )
 
+    ekf_node = Node(
+        package='robot_local_localization',
+        executable='ekf_node',
+        name='ekf_node',
+        output='screen',
+        parameters=[
+            {'use_sim_time': True},
+            {'motion_odom_topic': '/predicted_odom'},
+            {'meas_odom_topic': '/measurement/odom'},
+            {'ekf_odom_topic': '/ekf/odom'},
+            {'frame_id': 'odom'},
+            {'child_frame_id': 'base_link'},
+        ]
+    )
+
     measurement_node = Node(
         package='robot_local_localization',
         executable='measurement_node',
@@ -168,8 +183,8 @@ def generate_launch_description():
         cmd_vel_to_motor_rpm_node,
         prediction_node,
         measurement_node,
+        ekf_node,
         rviz_node,
         frame_id_converter_node, 
-        ekf_diff_imu_node,
         rtabmap_vo_node
     ])

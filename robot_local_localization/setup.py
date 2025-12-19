@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             'prediction_node = robot_local_localization.prediction_node:main',
             'measurement_node = robot_local_localization.measurement_node:main',
+            'ekf_node = robot_local_localization.ekf_node:main',
         ],
     },
 )

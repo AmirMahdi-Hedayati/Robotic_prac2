@@ -11,6 +11,7 @@
   <depend>geometry_msgs</depend>
   <depend>nav_msgs</depend>
   <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
   <depend>tf_transformations</depend>
 
   <test_depend>ament_copyright</test_depend>
