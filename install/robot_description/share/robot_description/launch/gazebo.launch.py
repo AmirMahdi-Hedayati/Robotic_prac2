@@ -135,6 +135,22 @@ def generate_launch_description():
         ]
     )
 
+    prediction_node = Node(
+    package='robot_local_localization',
+    executable='prediction_node',
+    name='prediction_node',
+    output='screen',
+    parameters=[
+        {'use_sim_time': True},
+        {'dt': 0.02},
+        {'cmd_vel_topic': '/cmd_vel'},
+        {'odom_topic': '/predicted_odom'},
+        {'frame_id': 'odom'},
+        {'child_frame_id': 'base_link'},
+    ]
+)
+
+
     return LaunchDescription([
         DeclareLaunchArgument('use_sim_time',default_value='True',description='Use sim time if true'),
         DeclareLaunchArgument('urdf_file',default_value=os.path.join(bringup_dir, 'src', 'description', 'test.urdf'),description='Whether to start RVIZ'),
@@ -144,6 +160,7 @@ def generate_launch_description():
         start_robot_state_publisher_cmd,
         spawn_entity,
         cmd_vel_to_motor_rpm_node,
+        prediction_node,
         rviz_node,
         frame_id_converter_node, 
         ekf_diff_imu_node,
